@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ptbil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Masukan bilangan 1"
+        android:textAlignment="center"
+        android:textColor="#817676" />
+
+    <EditText
+        android:id="@+id/ptbil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Masukan bilangan 2"
+        android:textAlignment="center"
+        android:textColor="#7A7171" />
+
+    <EditText
+        android:id="@+id/ptopbil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Operator bilangan"
+        android:textAlignment="center"
+        android:textColor="#777171" />
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hitung"
+        android:text="HITUNG"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvophasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Operasi Adalah:"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+
+
+
+
